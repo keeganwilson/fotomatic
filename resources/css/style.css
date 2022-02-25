@@ -41,20 +41,23 @@ header {
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
+  height: 5.3125rem;
 }
 
 header .content {
   display: flex;
-  align-items: center;
   padding: 1.875rem;
 }
 
 header .logo {
   flex: 1;
+  text-decoration: none;
+  color: black;
 }
 
 header nav ul {
   display: flex;
+  list-style-type: none;
 }
 
 nav li {
@@ -66,6 +69,7 @@ nav a {
   line-height: 1.6;
   font-size: 1rem;
   color: #4a4a4a;
+  text-decoration: none;
 }
 
 header .icon {
@@ -115,8 +119,10 @@ header .mobile {
 #sign-up-section {
   display: flex;
   justify-content: flex-start;
-  align-items: flex-start;
   height: 43.5rem;
+  background-image: url(../images/banner-landingpage.jpg);
+  background-size: cover;
+  align-items: center;
 }
 
 #sign-up-cta {
@@ -124,6 +130,7 @@ header .mobile {
   border: solid 1px #979797;
   border-radius: 4px;
   background-color: #9dc20b;
+  margin-left: 100px;
 }
 
 #sign-up-cta .content {
@@ -149,16 +156,22 @@ header .mobile {
 
 #sign-up-cta .cursive {
   font-family: "Damion", cursive;
+  font-weight: lighter;
+  margin-top: 32px;
 }
 
 #sign-up-cta .striking {
   font-family: "Rubik", sans-serif;
   padding-bottom: .75rem;
+  font-weight: lighter;
+  margin-bottom: 12px;
 }
 
 #sign-up-cta .button {
   margin-top: 1.625rem;
   padding: 1.25rem 7.25rem;
+  margin-top: 26px;
+  margin-bottom: 56px;
 }
 
 @media only screen and (max-width: 760px) {
